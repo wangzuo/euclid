@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`circleCircle 1`] = `
+Array [
+  Object {
+    "x": 250,
+    "y": 150,
+  },
+  Object {
+    "x": 150,
+    "y": 250,
+  },
+]
+`;
+
+exports[`lineCircle 1`] = `
+Array [
+  Object {
+    "x": 79.28932188134523,
+    "y": 79.28932188134523,
+  },
+  Object {
+    "x": 220.71067811865473,
+    "y": 220.71067811865473,
+  },
+]
+`;
+
+exports[`lineLine 1`] = `
+Object {
+  "x": 250,
+  "y": 250,
+}
+`;

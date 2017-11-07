@@ -1,0 +1,620 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`circumcircle 1`] = `
+Array [
+  Object {
+    "draggable": false,
+    "name": "AB",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 100,
+      "y": 100,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 200,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "BC",
+    "p1": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 200,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 300,
+      "y": 300,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "AC",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 100,
+      "y": 100,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 300,
+      "y": 300,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": true,
+    "name": "A",
+    "type": "Point",
+    "x": 100,
+    "y": 100,
+  },
+  Object {
+    "draggable": true,
+    "name": "B",
+    "type": "Point",
+    "x": 50,
+    "y": 200,
+  },
+  Object {
+    "draggable": true,
+    "name": "C",
+    "type": "Point",
+    "x": 300,
+    "y": 300,
+  },
+  Object {
+    "draggable": false,
+    "name": "O",
+    "r": 141.91155304938667,
+    "type": "Circle",
+    "x": 191.66666666666666,
+    "y": 208.33333333333334,
+  },
+]
+`;
+
+exports[`movePoint 1`] = `
+Array [
+  Object {
+    "draggable": true,
+    "name": "A",
+    "type": "Point",
+    "x": 10,
+    "y": 10,
+  },
+]
+`;
+
+exports[`movePoint 2`] = `
+Array [
+  Object {
+    "draggable": true,
+    "name": "A",
+    "type": "Point",
+    "x": 20,
+    "y": 20,
+  },
+]
+`;
+
+exports[`s1 1`] = `
+Array [
+  Object {
+    "draggable": false,
+    "name": "AB",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 200,
+      "y": 100,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 400,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "BC",
+    "p1": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 400,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 400,
+      "y": 300,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "AC",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 200,
+      "y": 100,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 400,
+      "y": 300,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "CD",
+    "p1": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 400,
+      "y": 300,
+    },
+    "p2": Object {
+      "draggable": false,
+      "name": "D",
+      "type": "Point",
+      "x": 149.99999999999997,
+      "y": 199.99999999999997,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "AE",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 200,
+      "y": 100,
+    },
+    "p2": Object {
+      "draggable": false,
+      "name": "E",
+      "type": "Point",
+      "x": 166.66666666666663,
+      "y": 366.66666666666663,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "BF",
+    "p1": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 400,
+    },
+    "p2": Object {
+      "draggable": false,
+      "name": "F",
+      "type": "Point",
+      "x": 333.33333333333326,
+      "y": 233.33333333333331,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "E",
+    "type": "Point",
+    "x": 166.66666666666663,
+    "y": 366.66666666666663,
+  },
+  Object {
+    "draggable": true,
+    "name": "B",
+    "type": "Point",
+    "x": 50,
+    "y": 400,
+  },
+  Object {
+    "draggable": false,
+    "name": "F",
+    "type": "Point",
+    "x": 333.33333333333326,
+    "y": 233.33333333333331,
+  },
+  Object {
+    "draggable": true,
+    "name": "C",
+    "type": "Point",
+    "x": 400,
+    "y": 300,
+  },
+  Object {
+    "draggable": true,
+    "name": "A",
+    "type": "Point",
+    "x": 200,
+    "y": 100,
+  },
+  Object {
+    "draggable": false,
+    "name": "D",
+    "type": "Point",
+    "x": 149.99999999999997,
+    "y": 199.99999999999997,
+  },
+  Object {
+    "draggable": false,
+    "name": "G",
+    "type": "Point",
+    "x": 185.71428571428567,
+    "y": 214.28571428571422,
+  },
+  Object {
+    "draggable": false,
+    "name": "H",
+    "type": "Point",
+    "x": 171.42857142857142,
+    "y": 328.57142857142856,
+  },
+  Object {
+    "draggable": false,
+    "name": "I",
+    "type": "Point",
+    "x": 292.8571428571428,
+    "y": 257.1428571428571,
+  },
+]
+`;
+
+exports[`s1 2`] = `45000`;
+
+exports[`s1 3`] = `6428.5714285714275`;
+
+exports[`s1 4`] = `7.000000000000001`;
+
+exports[`s2 1`] = `
+Array [
+  Object {
+    "draggable": false,
+    "name": "AC",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 200,
+      "y": 80,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 120,
+      "y": 450,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "AD",
+    "p1": Object {
+      "draggable": true,
+      "name": "A",
+      "type": "Point",
+      "x": 200,
+      "y": 80,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "D",
+      "type": "Point",
+      "x": 350,
+      "y": 400,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "BD",
+    "p1": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 200,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "D",
+      "type": "Point",
+      "x": 350,
+      "y": 400,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "BE",
+    "p1": Object {
+      "draggable": true,
+      "name": "B",
+      "type": "Point",
+      "x": 50,
+      "y": 200,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "E",
+      "type": "Point",
+      "x": 450,
+      "y": 200,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "CE",
+    "p1": Object {
+      "draggable": true,
+      "name": "C",
+      "type": "Point",
+      "x": 120,
+      "y": 450,
+    },
+    "p2": Object {
+      "draggable": true,
+      "name": "E",
+      "type": "Point",
+      "x": 450,
+      "y": 200,
+    },
+    "type": "Line",
+  },
+  Object {
+    "draggable": false,
+    "name": "O1",
+    "r": 67.79596743075626,
+    "type": "Circle",
+    "x": 215.152027027027,
+    "y": 146.08108108108104,
+  },
+  Object {
+    "draggable": true,
+    "name": "C",
+    "type": "Point",
+    "x": 120,
+    "y": 450,
+  },
+  Object {
+    "draggable": true,
+    "name": "D",
+    "type": "Point",
+    "x": 350,
+    "y": 400,
+  },
+  Object {
+    "draggable": true,
+    "name": "E",
+    "type": "Point",
+    "x": 450,
+    "y": 200,
+  },
+  Object {
+    "draggable": true,
+    "name": "A",
+    "type": "Point",
+    "x": 200,
+    "y": 80,
+  },
+  Object {
+    "draggable": false,
+    "name": "F",
+    "type": "Point",
+    "x": 174.05405405405406,
+    "y": 200,
+  },
+  Object {
+    "draggable": false,
+    "name": "G",
+    "type": "Point",
+    "x": 256.25,
+    "y": 200,
+  },
+  Object {
+    "draggable": false,
+    "name": "H",
+    "type": "Point",
+    "x": 158.4251968503937,
+    "y": 272.2834645669291,
+  },
+  Object {
+    "draggable": false,
+    "name": "I",
+    "type": "Point",
+    "x": 262.7659574468085,
+    "y": 341.84397163120565,
+  },
+  Object {
+    "draggable": false,
+    "name": "J",
+    "type": "Point",
+    "x": 307.0230607966457,
+    "y": 308.31586303284416,
+  },
+  Object {
+    "draggable": true,
+    "name": "B",
+    "type": "Point",
+    "x": 50,
+    "y": 200,
+  },
+  Object {
+    "draggable": false,
+    "name": "O2",
+    "r": 99.05096471347967,
+    "type": "Circle",
+    "x": 353.125,
+    "y": 220.6477113906359,
+  },
+  Object {
+    "draggable": false,
+    "name": "O3",
+    "r": 53.59859663602341,
+    "type": "Circle",
+    "x": 312.5805987976468,
+    "y": 361.62555570423893,
+  },
+  Object {
+    "draggable": false,
+    "name": "O4",
+    "r": 96.24478039108232,
+    "type": "Circle",
+    "x": 170.0924219578935,
+    "y": 367.81845088512864,
+  },
+  Object {
+    "draggable": false,
+    "name": "O5",
+    "r": 66.66102944880058,
+    "type": "Circle",
+    "x": 112.02702702702703,
+    "y": 224.42008938071925,
+  },
+  Object {
+    "draggable": false,
+    "name": "X1",
+    "type": "Point",
+    "x": 282.7751019715733,
+    "y": 150.91977252778867,
+  },
+  Object {
+    "draggable": false,
+    "name": "Y1",
+    "type": "Point",
+    "x": 256.25000000000006,
+    "y": 199.9999999999999,
+  },
+  Object {
+    "draggable": false,
+    "name": "X2",
+    "type": "Point",
+    "x": 345.60972850854205,
+    "y": 319.4131623594877,
+  },
+  Object {
+    "draggable": false,
+    "name": "Y2",
+    "type": "Point",
+    "x": 307.0230607966456,
+    "y": 308.31586303284405,
+  },
+  Object {
+    "draggable": false,
+    "name": "X3",
+    "type": "Point",
+    "x": 264.67007433911766,
+    "y": 385.65452171320027,
+  },
+  Object {
+    "draggable": false,
+    "name": "Y3",
+    "type": "Point",
+    "x": 262.7659574468085,
+    "y": 341.84397163120553,
+  },
+  Object {
+    "draggable": false,
+    "name": "X4",
+    "type": "Point",
+    "x": 112.00250089530395,
+    "y": 291.0811143176547,
+  },
+  Object {
+    "draggable": false,
+    "name": "Y4",
+    "type": "Point",
+    "x": 158.42519685039377,
+    "y": 272.283464566929,
+  },
+  Object {
+    "draggable": false,
+    "name": "X5",
+    "type": "Point",
+    "x": 152.18670217756656,
+    "y": 171.21394933112538,
+  },
+  Object {
+    "draggable": false,
+    "name": "Y5",
+    "type": "Point",
+    "x": 174.05405405405403,
+    "y": 199.99999999999994,
+  },
+  Object {
+    "draggable": false,
+    "name": "O",
+    "r": 124.38382406687978,
+    "type": "Circle",
+    "x": 233.66337609260498,
+    "y": 265.19739094316157,
+  },
+]
+`;
+
+exports[`triangle 1`] = `15000`;
+
+exports[`triangle 2`] = `
+Array [
+  Object {
+    "draggable": true,
+    "name": "A",
+    "type": "Point",
+    "x": 100,
+    "y": 100,
+  },
+  Object {
+    "draggable": true,
+    "name": "B",
+    "type": "Point",
+    "x": 50,
+    "y": 200,
+  },
+  Object {
+    "draggable": true,
+    "name": "C",
+    "type": "Point",
+    "x": 300,
+    "y": 300,
+  },
+]
+`;

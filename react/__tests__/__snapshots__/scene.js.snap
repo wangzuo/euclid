@@ -1,0 +1,906 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`circumcircle 1`] = `
+<svg
+  className="geometry"
+  preserveAspectRatio="xMidYMin meet"
+  style={
+    Object {
+      "border": "1px solid #eee",
+      "fill": "none",
+      "height": 500,
+      "stroke": "black",
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 500"
+>
+  <line
+    className="line"
+    x1={100}
+    x2={50}
+    y1={100}
+    y2={200}
+  />
+  <line
+    className="line"
+    x1={50}
+    x2={300}
+    y1={200}
+    y2={300}
+  />
+  <line
+    className="line"
+    x1={100}
+    x2={300}
+    y1={100}
+    y2={300}
+  />
+  <g>
+    <text
+      x={104}
+      y={96}
+    >
+      A
+    </text>
+    <circle
+      className="point"
+      cx={100}
+      cy={100}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={54}
+      y={196}
+    >
+      B
+    </text>
+    <circle
+      className="point"
+      cx={50}
+      cy={200}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={304}
+      y={296}
+    >
+      C
+    </text>
+    <circle
+      className="point"
+      cx={300}
+      cy={300}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <circle
+    className="circle"
+    cx={191.66666666666666}
+    cy={208.33333333333334}
+    r={141.91155304938667}
+  />
+</svg>
+`;
+
+exports[`s1 1`] = `
+<svg
+  className="geometry"
+  preserveAspectRatio="xMidYMin meet"
+  style={
+    Object {
+      "border": "1px solid #eee",
+      "fill": "none",
+      "height": 500,
+      "stroke": "black",
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 500"
+>
+  <line
+    className="line"
+    x1={200}
+    x2={50}
+    y1={100}
+    y2={400}
+  />
+  <line
+    className="line"
+    x1={50}
+    x2={400}
+    y1={400}
+    y2={300}
+  />
+  <line
+    className="line"
+    x1={200}
+    x2={400}
+    y1={100}
+    y2={300}
+  />
+  <line
+    className="line"
+    x1={400}
+    x2={149.99999999999997}
+    y1={300}
+    y2={199.99999999999997}
+  />
+  <line
+    className="line"
+    x1={200}
+    x2={166.66666666666663}
+    y1={100}
+    y2={366.66666666666663}
+  />
+  <line
+    className="line"
+    x1={50}
+    x2={333.33333333333326}
+    y1={400}
+    y2={233.33333333333331}
+  />
+  <g>
+    <text
+      x={170.66666666666663}
+      y={362.66666666666663}
+    >
+      E
+    </text>
+    <circle
+      className="point"
+      cx={166.66666666666663}
+      cy={366.66666666666663}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={54}
+      y={396}
+    >
+      B
+    </text>
+    <circle
+      className="point"
+      cx={50}
+      cy={400}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={337.33333333333326}
+      y={229.33333333333331}
+    >
+      F
+    </text>
+    <circle
+      className="point"
+      cx={333.33333333333326}
+      cy={233.33333333333331}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={404}
+      y={296}
+    >
+      C
+    </text>
+    <circle
+      className="point"
+      cx={400}
+      cy={300}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={204}
+      y={96}
+    >
+      A
+    </text>
+    <circle
+      className="point"
+      cx={200}
+      cy={100}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={153.99999999999997}
+      y={195.99999999999997}
+    >
+      D
+    </text>
+    <circle
+      className="point"
+      cx={149.99999999999997}
+      cy={199.99999999999997}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={189.71428571428567}
+      y={210.28571428571422}
+    >
+      G
+    </text>
+    <circle
+      className="point"
+      cx={185.71428571428567}
+      cy={214.28571428571422}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={175.42857142857142}
+      y={324.57142857142856}
+    >
+      H
+    </text>
+    <circle
+      className="point"
+      cx={171.42857142857142}
+      cy={328.57142857142856}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={296.8571428571428}
+      y={253.1428571428571}
+    >
+      I
+    </text>
+    <circle
+      className="point"
+      cx={292.8571428571428}
+      cy={257.1428571428571}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+</svg>
+`;
+
+exports[`s2 1`] = `
+<svg
+  className="geometry"
+  preserveAspectRatio="xMidYMin meet"
+  style={
+    Object {
+      "border": "1px solid #eee",
+      "fill": "none",
+      "height": 500,
+      "stroke": "black",
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 500"
+>
+  <line
+    className="line"
+    x1={200}
+    x2={120}
+    y1={80}
+    y2={450}
+  />
+  <line
+    className="line"
+    x1={200}
+    x2={350}
+    y1={80}
+    y2={400}
+  />
+  <line
+    className="line"
+    x1={50}
+    x2={350}
+    y1={200}
+    y2={400}
+  />
+  <line
+    className="line"
+    x1={50}
+    x2={450}
+    y1={200}
+    y2={200}
+  />
+  <line
+    className="line"
+    x1={120}
+    x2={450}
+    y1={450}
+    y2={200}
+  />
+  <circle
+    className="circle"
+    cx={215.152027027027}
+    cy={146.08108108108104}
+    r={67.79596743075626}
+  />
+  <g>
+    <text
+      x={124}
+      y={446}
+    >
+      C
+    </text>
+    <circle
+      className="point"
+      cx={120}
+      cy={450}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={354}
+      y={396}
+    >
+      D
+    </text>
+    <circle
+      className="point"
+      cx={350}
+      cy={400}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={454}
+      y={196}
+    >
+      E
+    </text>
+    <circle
+      className="point"
+      cx={450}
+      cy={200}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={204}
+      y={76}
+    >
+      A
+    </text>
+    <circle
+      className="point"
+      cx={200}
+      cy={80}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={178.05405405405406}
+      y={196}
+    >
+      F
+    </text>
+    <circle
+      className="point"
+      cx={174.05405405405406}
+      cy={200}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={260.25}
+      y={196}
+    >
+      G
+    </text>
+    <circle
+      className="point"
+      cx={256.25}
+      cy={200}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={162.4251968503937}
+      y={268.2834645669291}
+    >
+      H
+    </text>
+    <circle
+      className="point"
+      cx={158.4251968503937}
+      cy={272.2834645669291}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={266.7659574468085}
+      y={337.84397163120565}
+    >
+      I
+    </text>
+    <circle
+      className="point"
+      cx={262.7659574468085}
+      cy={341.84397163120565}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={311.0230607966457}
+      y={304.31586303284416}
+    >
+      J
+    </text>
+    <circle
+      className="point"
+      cx={307.0230607966457}
+      cy={308.31586303284416}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={54}
+      y={196}
+    >
+      B
+    </text>
+    <circle
+      className="point"
+      cx={50}
+      cy={200}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <circle
+    className="circle"
+    cx={353.125}
+    cy={220.6477113906359}
+    r={99.05096471347967}
+  />
+  <circle
+    className="circle"
+    cx={312.5805987976468}
+    cy={361.62555570423893}
+    r={53.59859663602341}
+  />
+  <circle
+    className="circle"
+    cx={170.0924219578935}
+    cy={367.81845088512864}
+    r={96.24478039108232}
+  />
+  <circle
+    className="circle"
+    cx={112.02702702702703}
+    cy={224.42008938071925}
+    r={66.66102944880058}
+  />
+  <g>
+    <text
+      x={286.7751019715733}
+      y={146.91977252778867}
+    >
+      X1
+    </text>
+    <circle
+      className="point"
+      cx={282.7751019715733}
+      cy={150.91977252778867}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={260.25000000000006}
+      y={195.9999999999999}
+    >
+      Y1
+    </text>
+    <circle
+      className="point"
+      cx={256.25000000000006}
+      cy={199.9999999999999}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={349.60972850854205}
+      y={315.4131623594877}
+    >
+      X2
+    </text>
+    <circle
+      className="point"
+      cx={345.60972850854205}
+      cy={319.4131623594877}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={311.0230607966456}
+      y={304.31586303284405}
+    >
+      Y2
+    </text>
+    <circle
+      className="point"
+      cx={307.0230607966456}
+      cy={308.31586303284405}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={268.67007433911766}
+      y={381.65452171320027}
+    >
+      X3
+    </text>
+    <circle
+      className="point"
+      cx={264.67007433911766}
+      cy={385.65452171320027}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={266.7659574468085}
+      y={337.84397163120553}
+    >
+      Y3
+    </text>
+    <circle
+      className="point"
+      cx={262.7659574468085}
+      cy={341.84397163120553}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={116.00250089530395}
+      y={287.0811143176547}
+    >
+      X4
+    </text>
+    <circle
+      className="point"
+      cx={112.00250089530395}
+      cy={291.0811143176547}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={162.42519685039377}
+      y={268.283464566929}
+    >
+      Y4
+    </text>
+    <circle
+      className="point"
+      cx={158.42519685039377}
+      cy={272.283464566929}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={156.18670217756656}
+      y={167.21394933112538}
+    >
+      X5
+    </text>
+    <circle
+      className="point"
+      cx={152.18670217756656}
+      cy={171.21394933112538}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={178.05405405405403}
+      y={195.99999999999994}
+    >
+      Y5
+    </text>
+    <circle
+      className="point"
+      cx={174.05405405405403}
+      cy={199.99999999999994}
+      r="3"
+      style={
+        Object {
+          "fill": "#aaa",
+        }
+      }
+    />
+  </g>
+  <circle
+    className="circle"
+    cx={233.66337609260498}
+    cy={265.19739094316157}
+    r={124.38382406687978}
+  />
+</svg>
+`;
+
+exports[`triangle 1`] = `
+<svg
+  className="geometry"
+  preserveAspectRatio="xMidYMin meet"
+  style={
+    Object {
+      "border": "1px solid #eee",
+      "fill": "none",
+      "height": 500,
+      "stroke": "black",
+      "width": 500,
+    }
+  }
+  viewBox="0 0 500 500"
+>
+  <g>
+    <text
+      x={104}
+      y={96}
+    >
+      A
+    </text>
+    <circle
+      className="point"
+      cx={100}
+      cy={100}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={54}
+      y={196}
+    >
+      B
+    </text>
+    <circle
+      className="point"
+      cx={50}
+      cy={200}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+  <g>
+    <text
+      x={304}
+      y={296}
+    >
+      C
+    </text>
+    <circle
+      className="point"
+      cx={300}
+      cy={300}
+      r="4"
+      style={
+        Object {
+          "cursor": "pointer",
+          "fill": "blue",
+          "stroke": "none",
+        }
+      }
+    />
+  </g>
+</svg>
+`;
