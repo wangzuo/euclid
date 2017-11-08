@@ -33,6 +33,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server --port=8080",
+    "build": "webpack -p",
     "test": "jest"
   }
 }
