@@ -6,9 +6,6 @@ const scene = new Scene();
 
 const tanG = deg => Math.tan(deg * Math.PI / 180);
 
-// y - ay + k1 * ax = k1 * x
-// y - by + k2 * bx = k2 * x
-
 scene
   .point('A', 200, 400)
   .point('B', 300, 400)
