@@ -13,7 +13,7 @@
     "webpack": "^3.8.1",
     "webpack-dev-server": "^2.9.4"
   },
-  "name": "euclid",
+  "name": "euclid-geo",
   "version": "0.1.0",
   "main": "index.js",
   "repository": {
