@@ -3,9 +3,7 @@ import { findDOMNode } from 'react-dom';
 import { DraggableContainer, Draggable } from './draggable';
 import * as styles from './styles';
 
-const DraggablePoint = Draggable(({
-  point
-}) => {
+const DraggablePoint = Draggable(({ point }) => {
   return (
     <circle
       style={styles.pointDraggable}
@@ -23,16 +21,20 @@ const Geom = ({ geom }) => {
   if (type === 'Point') {
     return (
       <g>
-        <text x={geom.x + 4} y={geom.y - 4}>{name}</text>
-        {draggable
-          ? <DraggablePoint point={geom} pos={geom.pos} />
-          : <circle
-              style={styles.point}
-              className="point"
-              cx={geom.x}
-              cy={geom.y}
-              r="3"
-            />}
+        <text x={geom.x + 4} y={geom.y - 4}>
+          {name}
+        </text>
+        {draggable ? (
+          <DraggablePoint point={geom} pos={geom.pos} />
+        ) : (
+          <circle
+            style={styles.point}
+            className="point"
+            cx={geom.x}
+            cy={geom.y}
+            r="3"
+          />
+        )}
       </g>
     );
   } else if (type === 'Line') {
