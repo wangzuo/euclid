@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 import { findDOMNode } from 'react-dom';
 import { DraggableContainer, Draggable } from './draggable';
-import * as styles from './styles';
 
 const DraggablePoint = Draggable(({ point }) => {
   return (
@@ -69,8 +68,7 @@ const SceneSVG = DraggableContainer(({ geoms, width, height }) => {
       className="geometry"
       viewBox={`0 0 ${width} ${height}`}
       preserveAspectRatio="xMidYMin meet"
-      style={{ width, height, ...styles.svg }}
-    >
+      style={{ width, height, ...styles.svg }}>
       {geoms.map(geom => <Geom key={geom.name} geom={geom} />)}
     </svg>
   );
@@ -106,5 +104,27 @@ class Scene extends Component {
     );
   }
 }
+
+const styles = {
+  svg: {
+    stroke: 'black',
+    fill: 'none',
+    border: '1px solid #eee',
+    userSelect: 'none'
+  },
+  pointDraggable: {
+    fill: 'blue',
+    stroke: 'none',
+    cursor: 'pointer'
+  },
+
+  point: {
+    fill: '#aaa'
+  },
+
+  circle: {},
+
+  line: {}
+};
 
 export default Scene;

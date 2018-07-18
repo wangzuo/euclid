@@ -1,7 +1,7 @@
 import React from 'react';
-import Scene from '../geoms/scene';
-import ReactScene from '../react/scene';
-import { orthocenter, centroid } from '../math/util';
+import Scene from '../../geoms/scene';
+import ReactScene from '../../components/scene';
+import { orthocenter, centroid } from '../../math/util';
 
 const scene = new Scene();
 

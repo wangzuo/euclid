@@ -1,6 +1,6 @@
 import React from 'react';
-import Scene from '../geoms/scene';
-import ReactScene from '../react/scene';
+import Scene from '../../geoms/scene';
+import ReactScene from '../../components/scene';
 
 const scene = new Scene();
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import Scene from '../geoms/scene';
-import ReactScene from '../react/scene';
+import Scene from '../../geoms/scene';
+import ReactScene from '../../components/scene';
 
 const scene = new Scene();
 
-const tanG = deg => Math.tan(deg * Math.PI / 180);
+const tanG = deg => Math.tan((deg * Math.PI) / 180);
 
 scene
   .point('B', 350, 300)
@@ -12,7 +12,7 @@ scene
   .layer()
   .segment('BD', 'B', 'D')
   .pointFn('A', ({ B: { x: bx, y: by }, D: { x: dx, y: dy } }) => {
-    const a = Math.atan((by - dy) / (bx - dx)) * 180 / Math.PI;
+    const a = (Math.atan((by - dy) / (bx - dx)) * 180) / Math.PI;
     const k1 = tanG(a + 80);
     const k2 = tanG(a + 140);
     const x = (by - dy - k2 * bx + k1 * dx) / (k1 - k2);
@@ -20,7 +20,7 @@ scene
     return { x, y };
   })
   .pointFn('C', ({ B: { x: bx, y: by }, D: { x: dx, y: dy } }) => {
-    const a = Math.atan((by - dy) / (bx - dx)) * 180 / Math.PI;
+    const a = (Math.atan((by - dy) / (bx - dx)) * 180) / Math.PI;
     const k1 = tanG(a - 50);
     const k2 = tanG(a - 110);
     const x = (by - dy - k2 * bx + k1 * dx) / (k1 - k2);
