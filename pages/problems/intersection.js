@@ -1,4 +1,4 @@
-import Scene from '../geoms/scene';
+import Scene from '../../geoms/scene';
 
 const scene = new Scene();
 
