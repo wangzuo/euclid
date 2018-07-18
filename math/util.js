@@ -37,7 +37,7 @@ export const angle = ({ x: x1, y: y1 }, { x: x2, y: y2 }, { x: x3, y: y3 }) => {
   const b = dist({ x: x1, y: y1 }, { x: x3, y: y3 });
   const c = dist({ x: x1, y: y1 }, { x: x2, y: y2 });
 
-  return Math.acos((a * a + c * c - b * b) / (2 * a * c)) * 180 / Math.PI;
+  return (Math.acos((a * a + c * c - b * b) / (2 * a * c)) * 180) / Math.PI;
 };
 
 export const incircle = (
@@ -53,7 +53,7 @@ export const incircle = (
   const x = (a * x1 + b * x2 + c * x3) / p;
   const y = (a * y1 + b * y2 + c * y3) / p;
 
-  const r = 1 / 2 * sqrt((b + c - a) * (c + a - b) * (a + b - c) / p);
+  const r = (1 / 2) * sqrt(((b + c - a) * (c + a - b) * (a + b - c)) / p);
   return { x, y, r };
 };
 

@@ -1,4 +1,4 @@
-import { lineLine, circleCircle, lineCircle } from '../intersection';
+import { lineLine, circleCircle, lineCircle } from '../math/intersection';
 
 test('lineLine', () => {
   expect(

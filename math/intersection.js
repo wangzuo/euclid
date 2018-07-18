@@ -11,17 +11,17 @@ export const circleCircle = (
     const a = (r1 * r1 - r2 * r2 + d * d) / (2 * d);
     const h = Math.sqrt(r1 * r1 - a * a);
 
-    const x3 = (x2 - x1) * a / d + x1;
-    const y3 = (y2 - y1) * a / d + y1;
+    const x3 = ((x2 - x1) * a) / d + x1;
+    const y3 = ((y2 - y1) * a) / d + y1;
 
     const p1 = {
-      x: x3 + h * (y2 - y1) / d,
-      y: y3 - h * (x2 - x1) / d
+      x: x3 + (h * (y2 - y1)) / d,
+      y: y3 - (h * (x2 - x1)) / d
     };
 
     const p2 = {
-      x: x3 - h * (y2 - y1) / d,
-      y: y3 + h * (x2 - x1) / d
+      x: x3 - (h * (y2 - y1)) / d,
+      y: y3 + (h * (x2 - x1)) / d
     };
 
     return [p1, p2];
